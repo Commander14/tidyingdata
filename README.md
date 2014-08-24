@@ -16,13 +16,17 @@ The run_analysis.R script does the following:
 
     - Reads in the training and test data sets from the raw data
     
-    - The script discards all data that is not presented in the raw tables in a column name containing:
+    - The script only keeps data that has the following in the original features column names:
     
-        - mean() - the means of the data presented
+        - mean() - the "mean" of the data presented
         
         - std() - the standard deviations of the data presented
         
     - Merges then tidys up the data and then presents it in table for sorted for each activity and each subject
+    
+        - Each cell entry is an average of all of the values for that feature grouped by all instances of that subject doing that activity and then average.
+            
+            - eg: For all WALKING values found for subject 1, average tBodyAcc-mean()-X and place the mean in the column titles tBodyAcc-mean()-X and a row with a Subject value of 1 and an Activity value of WALKING
     
         - The data is presented in a "wide" format as discussed in the following thread with the community TA helping this analysis
         
