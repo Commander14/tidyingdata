@@ -3,9 +3,13 @@ Description of what the run_analysis.R script does and assumptions made
 
 The run_analysis.R script makes the following assumptions:
     - The script sits in a directory that contains a directory called "UCI HAR Dataset" which is a directory tree of the raw activity data files provided in the file getdata-projectfiles-UCI HAR Dataset.zip which was pulled from
+    
         - https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
+        
     - Load it into R via source("run_analysis.R)
+    
     - Analyze by calling the function analyzeData()
+    
 
 The run_analysis.R script does the following:
     - Reads in the training and test data sets from the raw data
