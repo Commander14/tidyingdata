@@ -2,6 +2,7 @@ Description of what the run_analysis.R script does and assumptions made
 =======================================================================
 
 The run_analysis.R script makes the following assumptions:
+
     - The script sits in a directory that contains a directory called "UCI HAR Dataset" which is a directory tree of the raw activity data files provided in the file getdata-projectfiles-UCI HAR Dataset.zip which was pulled from
     
         - https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
@@ -12,14 +13,23 @@ The run_analysis.R script makes the following assumptions:
     
 
 The run_analysis.R script does the following:
+
     - Reads in the training and test data sets from the raw data
+    
     - The script discards all data that is not presented in the raw tables in a column name containing:
+    
         - mean() - the means of the data presented
+        
         - std() - the standard deviations of the data presented
+        
     - Merges then tidys up the data and then presents it in table for sorted for each activity and each subject
+    
         - The data is presented in a "wide" format as discussed in the following thread with the community TA helping this analysis
+        
         - https://class.coursera.org/getdata-006/forum/thread?thread_id=236 
+        
     - The raw inertial data (in the "Intertial Signals" directory is not included in this analysis
+    
 
 Notes
 =====
