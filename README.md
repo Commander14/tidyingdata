@@ -46,8 +46,8 @@ Codebook for the tidy data
 Included in the same directory as this README is a file named codebook.txt that describes the data represented in the tidy data.
 
 
-Raw Data Set Information:
-=========================
+Original Raw Data Set Information:
+==================================
 
 This information is taken from the raw data sets description and is presented here for reference
 
