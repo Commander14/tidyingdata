@@ -1,0 +1,290 @@
+Code Book for the resulting tidy data set
+=========================================
+
+*Followed format as suggested and described in https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2FPUMSDataDict06.pdf 
+
+Format Definition:
+    (variable name)     (variable length)
+        (variable definition) (variable type)
+           (range of values)
+
+Tidy Data Dictionary - Human Activity Recognition Using Smartphones Dataset
+===========================================================================
+
+Subject         2
+    Identifier of the subject who carried out the experiment (integer)
+        01..30
+
+Activity        18
+    Identifier of the activity that was performed (string)
+        WALKING
+        WALKING_UPSTAIRS
+        WALKING_DOWNSTAIRS
+        SITTING
+        STANDING
+        LAYING
+        WALKING
+
+tBodyAcc-mean()-X           19
+        Raw body acceleration - mean of the X (float)
+        -1.0..1.0
+
+tBodyAcc-mean()-Y           19
+        Raw body acceleration - mean of the Y (float)
+        -1.0..1.0
+
+tBodyAcc-mean()-Z           19
+        Raw body acceleration - mean of the Z 
+        -1.0..1.0
+
+tBodyAcc-std()-X            19
+        Raw body acceleration - standard deviation of the X (float)
+        -1.0..1.0
+
+tBodyAcc-std()-Y            19
+        Raw body acceleration - standard deviation of the Y (float)
+        -1.0..1.0
+
+tBodyAcc-std()-Z            19
+        Raw body acceleration - standard deviation of the Z (float)
+        -1.0..1.0
+
+tGravityAcc-mean()-X        19
+        Raw gravity acceleration - mean of the X (float)
+        -1.0..1.0
+
+tGravityAcc-mean()-Y        19
+        Raw gravity acceleration - mean of the Y (float)
+        -1.0..1.0
+
+tGravityAcc-mean()-Z        19
+        Raw gravity acceleration - mean of the Z (float)
+        -1.0..1.0
+
+tGravityAcc-std()-X         19
+        Raw gravity acceleration - standard deviation of the X (float)
+        -1.0..1.0
+
+tGravityAcc-std()-Y         19
+        Raw gravity acceleration - standard deviation of the Y (float)
+        -1.0..1.0
+
+tGravityAcc-std()-Z         19
+        Raw gravity acceleration - standard deviation of the Z (float)
+        -1.0..1.0
+
+tBodyAccJerk-mean()-X       19
+        Raw body acceleration jerk - mean of the X (float)
+        -1.0..1.0
+
+tBodyAccJerk-mean()-Y       19
+        Raw body acceleration jerk - mean of the Y (float)
+        -1.0..1.0
+
+tBodyAccJerk-mean()-Z       19
+        Raw body acceleration jerk - mean of the Z (float)
+        -1.0..1.0
+
+tBodyAccJerk-std()-X        19
+        Raw body acceleration jerk - standard deviation of the X (float)
+        -1.0..1.0
+
+tBodyAccJerk-std()-Y        19
+        Raw body acceleration jerk - standard deviation of the Y (float)
+        -1.0..1.0
+
+tBodyAccJerk-std()-Z        19
+        Raw body acceleration jerk - standard deviation of the Z (float)
+        -1.0..1.0
+
+tBodyGyro-mean()-X          19
+        Raw body gyro - mean of the X (float)
+        -1.0..1.0
+
+tBodyGyro-mean()-Y          19
+        Raw body gyro - mean of the Y (float)
+        -1.0..1.0
+
+tBodyGyro-mean()-Z          19
+        Raw body gyro - mean of the Z (float)
+        -1.0..1.0
+
+tBodyGyro-std()-X           19
+        Raw body gyro - standard deviation of the X (float)
+        -1.0..1.0
+
+tBodyGyro-std()-Y           19
+        Raw body gyro - standard deviation of the Y (float)
+        -1.0..1.0
+
+tBodyGyro-std()-Z           19
+        Raw body gyro - standard deviation of the Z (float)
+        -1.0..1.0
+
+tBodyGyroJerk-mean()-X      19
+        Raw body gyro jerk - mean of the X (float)
+        -1.0..1.0
+
+tBodyGyroJerk-mean()-Y      19
+        Raw body gyro jerk - mean of the Y (float)
+        -1.0..1.0
+
+tBodyGyroJerk-mean()-Z      19
+        Raw body gyro jerk - mean of the Z (float)
+        -1.0..1.0
+
+tBodyGyroJerk-std()-X       19
+        Raw body gyro jerk - standard deviation of the X (float)
+        -1.0..1.0
+
+tBodyGyroJerk-std()-Y       19
+        Raw body gyro jerk - standard deviation of the Y (float)
+        -1.0..1.0
+
+tBodyGyroJerk-std()-Z       19
+        Raw body gyro jerk - standard deviation of the Z (float)
+        -1.0..1.0
+
+tBodyAccMag-mean()          19
+        Raw body acceleration magnitude - mean (float)
+        -1.0..1.0
+
+tBodyAccMag-std()           19
+        Raw body acceleration magnitude - standard deviation (float)
+        -1.0..1.0
+
+tGravityAccMag-mean()       19
+        Raw gravity acceleration magnitude - mean (float)
+        -1.0..1.0
+
+tGravityAccMag-std()        19
+        Raw gravity acceleration magnitude - standard deviation (float)
+        -1.0..1.0
+
+tBodyAccJerkMag-mean()      19
+        Raw body acceleration jerk magnitude - mean (float)
+        -1.0..1.0
+
+tBodyAccJerkMag-std()       19
+        Raw body acceleration jerk magnitude - standard deviation (float)
+        -1.0..1.0
+
+tBodyGyroMag-mean()         19
+        Raw body gyro magnitude - mean (float)
+        -1.0..1.0
+
+tBodyGyroMag-std()          19
+        Raw body gyro magnitude - standard deviation (float)
+        -1.0..1.0
+
+tBodyGyroJerkMag-mean()     19
+        Raw body gyro jerk magnitude - mean (float)
+        -1.0..1.0
+
+tBodyGyroJerkMag-std()      19
+        Raw body gyro jerk magnitude - standard deviation (float)
+        -1.0..1.0
+
+fBodyAcc-mean()-X           19
+        Fast fourier transformed body acceleration - mean of the X (float)
+        -1.0..1.0
+
+fBodyAcc-mean()-Y           19
+        Fast fourier transformed body acceleration - mean of the Y (float)
+        -1.0..1.0
+
+fBodyAcc-mean()-Z           19
+        Fast fourier transformed body acceleration - mean of the Z (float)
+        -1.0..1.0
+
+fBodyAcc-std()-X            19
+        Fast fourier transformed body acceleration - standard deviation of the X (float)
+        -1.0..1.0
+
+fBodyAcc-std()-Y            19
+        Fast fourier transformed body acceleration - standard deviation of the Y (float)
+        -1.0..1.0
+
+fBodyAcc-std()-Z            19
+        Fast fourier transformed body acceleration - standard deviation of the Z (float)
+        -1.0..1.0
+
+fBodyAccJerk-mean()-X       19
+        Fast fourier transformed body acceleration jerk - mean of the X (float)
+        -1.0..1.0
+
+fBodyAccJerk-mean()-Y       19
+        Fast fourier transformed body acceleration jerk - mean of the Y (float)
+        -1.0..1.0
+
+fBodyAccJerk-mean()-Z       19
+        Fast fourier transformed body acceleration jerk - mean of the Z (float)
+        -1.0..1.0
+
+fBodyAccJerk-std()-X        19
+        Fast fourier transformed body acceleration jerk - standard deviation of the X (float)
+        -1.0..1.0
+
+fBodyAccJerk-std()-Y        19
+        Fast fourier transformed body acceleration jerk - standard deviation of the Y (float)
+        -1.0..1.0
+
+fBodyAccJerk-std()-Z        19
+        Fast fourier transformed body acceleration jerk - standard deviation of the Z (float)
+        -1.0..1.0
+
+fBodyGyro-mean()-X          19
+        Fast fourier transformed body gyro - mean of the X (float)
+        -1.0..1.0
+
+fBodyGyro-mean()-Y          19
+        Fast fourier transformed body gyro - mean of the Y (float)
+        -1.0..1.0
+
+fBodyGyro-mean()-Z          19
+        Fast fourier transformed body gyro - mean of the Z (float)
+        -1.0..1.0
+
+fBodyGyro-std()-X           19
+        Fast fourier transformed body gyro - standard deviation of the X (float)
+        -1.0..1.0
+
+fBodyGyro-std()-Y           19
+        Fast fourier transformed body gyro - standard deviation of the Y (float)
+        -1.0..1.0
+
+fBodyGyro-std()-Z           19
+        Fast fourier transformed body gyro - standard deviation of the Z (float)
+        -1.0..1.0
+
+fBodyAccMag-mean()          19
+        Fast fourier transformed body acceleration magnitude - mean (float)
+        -1.0..1.0
+
+fBodyAccMag-std()           19
+        Fast fourier transformed body acceleration magnitude - standard deviation (float)
+        -1.0..1.0
+
+fBodyBodyAccJerkMag-mean()      19
+        Fast fourier transformed body body acceleration jerk magnitude - mean (float)
+        -1.0..1.0
+
+fBodyBodyAccJerkMag-std()       19
+        Fast fourier transformed body body acceleration jerk magnitude - standard deviation (float)
+        -1.0..1.0
+
+fBodyBodyGyroMag-mean()         19
+        Fast fourier transformed body body gyro magnitude - mean (float)
+        -1.0..1.0
+
+fBodyBodyGyroMag-std()          19
+        Fast fourier transformed body body gyro magnitude - standard deviation (float)
+        -1.0..1.0
+
+fBodyBodyGyroJerkMag-mean()     19
+        Fast fourier transformed body body gyro jerk magnitude - mean (float)
+        -1.0..1.0
+
+fBodyBodyGyroJerkMag-std()      19
+        Fast fourier transformed body body gyro jerk magnitude - standard deviation (float)
+        -1.0..1.0
